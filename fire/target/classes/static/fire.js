@@ -20,6 +20,8 @@ function vehicadd_ajax_submit() {
     search["liquidType"] = $("#liquidType").val();
     search["liquidQuantity"] = $("#liquidQuantity").val();
     search["lliquidConsumption"] = $("#liquidConsumption").val();
+
+
     $("#sign").prop("disabled", true);
     
     console.log(JSON.stringify(search))
